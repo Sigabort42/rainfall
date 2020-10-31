@@ -52,3 +52,8 @@ Si elle n'est pas égal on affiche un "No" sur stderr
 0x08048f78 <+184>:   mov    DWORD PTR [esp],eax
 0x08048f7b <+187>:   call   0x804a230 <fwrite>
 ```
+
+```bash
+./level0 423
+cat /home/user/level1/.pass
+```
