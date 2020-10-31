@@ -13,7 +13,7 @@ Ici on appelle atoi et on compare sa valeur de retour avec 423
 0x08048ed1 <+17>:    mov    DWORD PTR [esp],eax
 0x08048ed4 <+20>:    call   0x8049710 <atoi>
 0x08048ed9 <+25>:    cmp    eax,0x1a7
-
+```
 Si elle est egal on set les uid et gid et on ouvre un shell
 ```gdb
 0x08048ef8 <+56>:    call   0x8054680 <getegid>
