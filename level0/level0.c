@@ -1,7 +1,7 @@
 #include <unistd.h>
-#include <string.h>
-#include <stdlib.h>
-#include <stdio.h>
+# include <string.h>
+# include <stdlib.h>
+# include <stdio.h>
 
 int main(int ac, char **av)
 {
