@@ -1,1 +1,0 @@
-En desassemblant le code avec gdb on voit que l'on a un buffer de 42 déclarer au début du main que l'on pourra exploiter avec le strncpy 
